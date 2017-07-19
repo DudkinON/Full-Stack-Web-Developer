@@ -1,0 +1,18 @@
+<div class="col-md-6 col-lg-4 movie-title text-center">
+       <div class="card-box">
+        <div class="movie-box front">
+            <img src="{poster_image_url}" width="220" height="342">
+            <h3 class="text-gray">{movie_title}</h3>
+        </div>
+        <div class="movie-box back">
+            <h3 class="text-gray">{movie_title} ({movie_year}) year</h3>
+            <hr>
+            <p class="justify-text text-gray">{description}</p>
+            <button type="button"
+                    class="btn btn-primary button-view"
+                    data-trailer-youtube-id="{trailer_youtube_id}"
+                    data-toggle="modal"
+                    data-target="#trailer">watch</button>
+        </div>
+    </div>
+</div>

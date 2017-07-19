@@ -1,0 +1,256 @@
+/* TODO: The basic styles */
+body {
+    color: #2d3c49;
+    background: white;
+}
+
+a {
+    min-width: 40px;
+    min-height: 40px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* TODO: The logotype styles */
+.logo {
+    max-width: 100px;
+    max-height: 100px;
+    display: inline-block;
+}
+
+.logo-text {
+    font-size: 64px;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 100;
+    top: 30px;
+}
+
+.first-symbol {
+    color: #02b3e4;
+}
+
+.second-symbol {
+    color: #2d3c49;
+}
+
+.fix-header-size {
+    min-height: 150px;
+}
+
+/* TODO: Top text styles */
+.header {
+    display: inline-block;
+    float: right;
+}
+
+.header > div {
+    text-align: right;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.top-upper-name {
+    top: 30px;
+    font-size: 56px;
+    font-weight: 100;
+}
+
+.extra-text {
+    top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* TODO: The navigation styles */
+.nav-menu-button {
+    color: #41729c;
+    cursor: pointer;
+    float: right;
+    position: relative;
+    top: -20px;
+    font-size: 24px;
+    display: none;
+}
+
+.nav-menu-button > i:hover {
+    color: #02b3e4;
+}
+
+.top-menu {
+    padding-top: 25px;
+    border-top: 4px solid #7d97ad;
+    padding-bottom: 20px;
+}
+
+.top-menu > ul > li > a {
+    color: #7d97ad;
+}
+
+.top-menu > ul > li > a:hover {
+    color: #02b3e4;
+}
+
+/* TODO: The title styles */
+.title {
+    text-transform: capitalize;
+    color: #2d3c49;
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+/* TODO: The card block */
+.img-card {
+    height: 220px;
+}
+
+.img-card > img {
+    max-height: 180px;
+}
+
+.description-card {
+    height: 120px;
+}
+
+.card-box {
+    margin: 5px 0;
+    padding: 10px;
+    max-width: 370px;
+    min-height: 250px;
+    text-align: center;
+}
+
+.title-card {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.link-card {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.link-card > a {
+    border-radius: 4px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #7d97ad;
+}
+
+.link-card > a:hover {
+    background: #2d3c49;
+    color: #fff;
+}
+
+/* TODO: The footer block */
+.footer {
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-top: 2px solid #7d97ad;
+}
+
+.img-top {
+    max-width: 1110px;
+}
+
+@media screen and (max-width: 338px) {
+    .logo {
+        display: block;
+        text-align: center;
+        max-width: 100%;
+        height: 100px;
+    }
+
+    .logo-text {
+        top: 0;
+    }
+
+    .header {
+        display: block;
+        float: none;
+    }
+
+    .header > div {
+        text-align: center;
+        position: static;
+    }
+
+    .top-upper-name {
+        top: -60px;
+        font-size: 25px;
+        font-weight: 300;
+    }
+
+    .extra-text {
+        top: -70px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-menu-button {
+        display: block;
+    }
+
+    .top-menu > ul {
+        position: relative;
+        top: 10px;
+        display: none;
+        width: 100%;
+    }
+
+    .top-menu > ul > li {
+        display: block;
+        width: 100%;
+    }
+
+    .top-menu > ul > li:hover {
+        background: #7d97ad;
+    }
+
+    .top-menu > ul > li > a:hover {
+        color: white;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .top-menu > ul {
+        position: static;
+        display: flex !important; /* Override the style from JavaScript */
+        width: auto;
+    }
+
+    .top-menu > ul > li {
+        display: inline-block;
+        width: auto;
+    }
+
+    .top-menu > ul > li:hover {
+        background: none;
+
+    }
+}
+
+@media screen and (min-width: 339px) and (max-width: 521px) {
+    .logo > img {
+        max-width: 120px;
+    }
+
+    .top-upper-name {
+        top: 40px;
+        font-size: 25px;
+        font-weight: 300;
+    }
+
+    .extra-text {
+        top: 30px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+}

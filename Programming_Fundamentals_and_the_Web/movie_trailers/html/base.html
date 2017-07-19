@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+{main_page_head}
+<body>
+<!-- Trailer Video Modal -->
+<div class="modal" id="trailer">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
+                <img src="img/x.png"/>
+            </a>
+            <div class="scale-media" id="trailer-video-container">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Main Page Content -->
+<div class="bg-inverse nav-box">
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-inverse">
+                <a class="navbar-brand" href="#">Movie Trailers</a>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        {movie_tiles}
+    </div>
+</div>
+<script src="js/jq.js"></script>
+<script src="js/tether.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/flip.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
