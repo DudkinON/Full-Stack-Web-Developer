@@ -16,7 +16,7 @@ You can't add link in a description or a title. Look example in default [movies.
 > Note: Add urls address such as: https://www.youtube.com/watch?v=KYz2wyBy3kc 
  do not use embed https://www.youtube.com/embed/11taaQy2KBg
 
-2. Use interpolator Python, and run file **run.py**
+2. Use interpreter Python, and run file **run.py**
 
 ```
 /path/to/folder/movie_trailers/ python run.py
