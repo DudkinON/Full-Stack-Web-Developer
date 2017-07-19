@@ -10,7 +10,7 @@
 
 
 1. Open **movies.csv** file with excel or other spreadsheet program. 
-In the file **movies.csv** change or add new movies. Each filed have to contains valid data. 
+In the file **movies.csv** change or add new movies. Each field have to contains valid data. 
 You can't add link in a description or a title. Look example in default [movies.csv](../data/movies.csv)
 
 > Note: Add urls address such as: https://www.youtube.com/watch?v=KYz2wyBy3kc 
