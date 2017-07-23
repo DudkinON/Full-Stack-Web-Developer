@@ -1,6 +1,6 @@
 import csv
 import os
-
+import webbrowser
 
 def get_movies(movies_file):
     """
@@ -40,6 +40,5 @@ class Movie:
         self.trailer_youtube_url = trailer_youtube
 
     def show_trailer(self):
-        import webbrowser
         webbrowser.open(self.trailer_youtube_url)
 

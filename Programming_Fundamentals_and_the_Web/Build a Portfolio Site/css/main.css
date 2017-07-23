@@ -1,0 +1,521 @@
+/* Created by Oleg Dudkin on 7/13/2017. */
+/* TODO: The basic styles */
+body {
+    color: #ccc;
+    background: white;
+}
+
+a {
+    min-width: 40px;
+    min-height: 40px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* TODO: Main styles */
+.invisible {
+    opacity: 0;
+}
+
+.visible {
+    animation-duration: 1.5s;
+    opacity: 1;
+}
+
+.appear-animated {
+    visibility: hidden;
+}
+
+.appear-animated {
+    animation-name: apear;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    visibility: visible !important;
+}
+
+@keyframes apear {
+    0% {
+        opacity: 0
+    }
+    10% {
+        opacity: .1
+    }
+    20% {
+        opacity: .2
+    }
+    30% {
+        opacity: .3
+    }
+    40% {
+        opacity: .4
+    }
+    50% {
+        opacity: .5
+    }
+    60% {
+        opacity: .6
+    }
+    70% {
+        opacity: .7
+    }
+    80% {
+        opacity: .8
+    }
+    90% {
+        opacity: .9
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+.title {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.icon {
+    font-size: 120px;
+    color: #ccc;
+}
+
+.white-icon {
+    font-size: 120px;
+    color: #fff;
+}
+
+/* TODO: The card block */
+.toggle-card {
+    display: block;
+}
+
+.img-card {
+    height: 220px;
+}
+
+.img-card > img {
+    max-height: 180px;
+}
+
+.description-card {
+    height: 120px;
+    color: #ccc;
+}
+
+.card-box {
+    margin: 5px 0;
+    padding: 10px;
+    max-width: 370px;
+    min-height: 250px;
+    text-align: center;
+}
+
+.card-container {
+    margin: 5px 0;
+    padding: 10px;
+    max-width: 280px;
+    min-height: 200px;
+    text-align: center;
+}
+
+.title-card {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #999;
+}
+
+.link-card {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.link-card > a {
+    background: #47bdea;
+    border-radius: 4px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.link-card > a:hover {
+    background: #49b1ea;
+}
+
+.toggle-card {
+
+}
+
+/* TODO: The about page styles */
+.first-selection {
+    background-image: linear-gradient(rgb(9, 195, 197) 38%, rgb(255, 255, 255) 100%);
+    text-transform: uppercase;
+    color: #fff;
+    min-height: 600px;
+}
+
+.first-hr {
+    border-top: 1px solid #fff;
+}
+
+.first-header {
+    font-weight: 600;
+    font-size: 56px;
+    padding: 150px 0 20px 0;
+}
+
+.first-slogan {
+    text-transform: none;
+    color: #cdfcf0;
+    padding: 10px 0;
+}
+
+.first-description {
+    text-transform: none;
+    font-weight: 100;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+/* TODO: The about section styles */
+.about {
+    background: #fff;
+    padding: 60px 0;
+    color: #ccc;
+}
+
+.about-title {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #999;
+}
+
+.about-name {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #999;
+}
+
+.about-description {
+    padding-top: 30px;
+    text-align: justify;
+}
+
+/* TODO: Section skills styles */
+.skills {
+    background-image: linear-gradient(rgb(8, 208, 210) 38%, rgb(184, 253, 253) 100%);
+    padding: 80px 0;
+    color: #fff;
+}
+
+.skills-title {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.fix-color-progress {
+    background-color: #06afc7;
+}
+
+.skills-item {
+    padding: 10px;
+}
+
+.skills-header {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding: 10px 0;
+}
+
+/* TODO: Section experience */
+.experience {
+    background-color: #fff;
+    color: #ccc;
+    padding: 80px 0;
+}
+
+.experience-title {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #999;
+}
+
+.experience-name {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #999;
+}
+
+.experience-item {
+    width: 49%;
+    padding: 10px;
+    display: inline-block;
+    margin: 5px 2px;
+}
+
+/* TODO: Section education */
+.education {
+    background-image: linear-gradient(rgb(8, 208, 210) 38%, rgb(184, 253, 253) 100%);
+    padding: 100px 0;
+    color: #fff;
+}
+
+.education-title {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.education-item {
+    color: #fff;
+    padding: 10px;
+}
+
+.education-item > h4 {
+    font-size: 20px;
+}
+
+.education-place {
+
+}
+
+.education-place > a {
+    color: #47bdea;
+    text-decoration: none;
+}
+
+.education-place > a:hover {
+    color: #fff;
+}
+
+/* TODO: Certificates section */
+.certificates {
+    padding: 80px 0;
+}
+
+.certificates-title {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #999;
+    padding-top: 10px;
+}
+
+.card-item {
+    display: inline-block;
+    margin: 10px;
+}
+
+/* TODO: Works section */
+.works {
+    background-image: linear-gradient(rgb(8, 208, 210) 38%, rgb(184, 253, 253) 100%);
+    padding: 100px 0;
+    color: #fff;
+}
+
+.works-title {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+/* TODO: Section contact */
+.contact-container {
+    padding: 100px 0;
+    color: #ccc;
+}
+
+.social-icon {
+    padding: 20px;
+}
+
+.social-icon > a {
+    text-decoration: none;
+    font-size: 40px;
+    padding: 10px;
+    color: #ccc;
+}
+
+.social-icon > a:hover {
+    color: #666;
+}
+
+/* TODO: Different styles */
+.hide {
+    display: none;
+}
+
+#skype-button {
+    z-index: 1;
+}
+
+.skype-button {
+    opacity: 0 !important;
+}
+
+#SkypeButton_Call_sumonix_1_paraElement > a {
+    position: relative;
+    left: -10px;
+}
+
+.skype-box {
+    display: inline-block;
+}
+
+.skype-box > a {
+    text-decoration: none;
+    font-size: 40px;
+    padding: 10px;
+    color: #ccc;
+}
+
+.skype-box:hover > a {
+    color: #666;
+}
+
+#SkypeButton_Call_sumonix_1_paraElement > a > img {
+    margin: 0 !important;
+    padding: 20px 10px;
+}
+
+.skype {
+    opacity: 0;
+    cursor: pointer;
+    position: relative;
+    top: 60px;
+    left: 5px;
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    z-index: 10;
+}
+
+/* TODO: The footer block */
+.footer {
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-top: 1px solid #09c3c5;
+}
+
+@media screen and (max-width: 992px) {
+    .first-header {
+        font-size: 40px;
+    }
+
+    .skills-header {
+        padding: 40px 0 10px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .first-header {
+        font-size: 32px;
+    }
+
+    .first-description {
+        font-size: 16px;
+    }
+
+    .icon {
+        font-size: 90px;
+    }
+
+    .white-icon {
+        font-size: 90px;
+    }
+
+    .about {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .experience {
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .skills {
+        background-image: linear-gradient(rgb(8, 208, 210) 38%, rgb(133, 253, 253) 100%);
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .skills-header {
+        margin-top: 10px;
+    }
+
+    .skills-header {
+        font-size: 18px;
+    }
+
+    .education {
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    .certificates {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .works {
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    .contact-container {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    #SkypeButton_Call_sumonix_1_paraElement > a > img {
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width: 474px) {
+    .first-header {
+        text-align: center;
+        padding: 100px 0 20px 0;
+    }
+
+    .first-slogan {
+        text-align: center;
+    }
+
+    .first-description {
+        text-align: center;
+    }
+
+    .first-selection {
+        min-height: 450px;
+    }
+
+    .icon {
+        font-size: 60px;
+    }
+
+    .white-icon {
+        font-size: 60px;
+    }
+
+    .about-name {
+        font-size: 18px;
+    }
+
+    .experience {
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .skills-header {
+        font-size: 18px;
+    }
+
+    .experience-item {
+        width: 95%;
+    }
+}
