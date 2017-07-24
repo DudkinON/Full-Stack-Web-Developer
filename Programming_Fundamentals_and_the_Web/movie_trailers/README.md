@@ -30,4 +30,4 @@ The **Movie Trailers** tool lets you create a list of yours favorite movies
 
 ### Licence
 
-MIT licence
+[MIT license](LICENSE)
