@@ -13,6 +13,14 @@ jQuery(document).ready(function ($) {
         });
     }
 
+    //
+    var allItems = $('.skills').find('.fix-progress');
+    for (var i=0; i < allItems.length; i++) {
+        var itemVal = allItems[i].getAttribute('aria-valuenow');
+        $(allItems[i]).css('width', itemVal + '%');
+    }
+
+
     // TODO: Following code does visualisation for certificates and my works
     // I made this decision because this part of code will be changed
     $('#certificates-card').html(cardsDesign(certificateCard));

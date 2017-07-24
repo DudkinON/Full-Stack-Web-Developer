@@ -215,7 +215,8 @@ img {
     font-size: 30px;
 }
 
-.fix-color-progress {
+.fix-progress {
+    height: 2px;
     background-color: #06afc7;
 }
 
@@ -353,7 +354,7 @@ img {
     opacity: 0 !important;
 }
 
-#SkypeButton_Call_sumonix_1_paraElement > a {
+.skype > div > p > a {
     position: relative;
     left: -10px;
 }
