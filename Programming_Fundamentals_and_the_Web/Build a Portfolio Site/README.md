@@ -3,7 +3,7 @@
 This assignment for Udacity: Full Stack Web Developer Nanodegree Program. 
 > **Part:** Programming Fundamentals and the Web.  **Project:** Build a Portfolio Site.
 
-Design completely adaptation for any device. And looks good as on desktop, and on tablets or cellphones.
+Design adapted for any device--desktop, tablets, or cellphones.
 
 ## Demonstration.
 
@@ -15,7 +15,7 @@ For familiarization you can load [build_a_portfolio_site.zip](build_a_portfolio_
 
 ### Used technologies.
 
-For this project used following technologies:
+The following were used for this project:
 
 - [jQuery](http://jquery.com/) - JavaScript frame work
 - [Bootstrap](http://getbootstrap.com/) - Grid system 
