@@ -9,7 +9,7 @@ Design completely adaptation for any device. And looks good as on desktop, and o
 
 Preview how it looks:
 
-[![demo](img/web-demo.png)](img/web-demo.jpg)
+[![demo](https://github.com/DudkinON/Full-Stack-Web-Developer/blob/master/Programming_Fundamentals_and_the_Web/Build%20a%20Portfolio%20Site/img/web-demo.jpg?raw=true)](img/web-demo.jpg)
 
 For familiarization you can load [build_a_portfolio_site.zip](build_a_portfolio_site.zip)
 
