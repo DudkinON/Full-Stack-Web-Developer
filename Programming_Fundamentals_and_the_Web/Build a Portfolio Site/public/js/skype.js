@@ -1,5 +1,5 @@
 var Skype = new function () {
-    var t = [], e = !1, n = "js/skype.main.js";
+    var t = [], e = !1, n = "public/js/skype.main.js";
     this.ui = function (a) {
         for (var c = document.getElementsByTagName("script"), i = c.length, r = !1; i--;)if (c[i].src === n) {
             r = !0;
