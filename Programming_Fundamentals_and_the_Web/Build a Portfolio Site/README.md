@@ -9,7 +9,9 @@ Design adapted for any device--desktop, tablets, or cellphones.
 
 Preview how it looks:
 
-[![demo](https://github.com/DudkinON/Full-Stack-Web-Developer/blob/master/Programming_Fundamentals_and_the_Web/Build%20a%20Portfolio%20Site/img/web-demo.jpg?raw=true)](img/web-demo.jpg)
+[![demo](https://github.com/DudkinON/Full-Stack-Web-Developer/blob/master/Programming_Fundamentals_and_the_Web/Build%20a%20Portfolio%20Site/public/img/web-demo.jpg?raw=true)](public/img/web-demo.jpg)
+
+Look it in live: [www.oleg-dudkin.com](http://www.oleg-dudkin.com/)
 
 For familiarization you can load [build_a_portfolio_site.zip](build_a_portfolio_site.zip)
 
