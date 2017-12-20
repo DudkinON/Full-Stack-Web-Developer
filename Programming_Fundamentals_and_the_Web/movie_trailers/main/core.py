@@ -4,8 +4,9 @@ import re
 
 
 def def_template(template_name):
-    with open(os.path.abspath('html/{}.html'.format(template_name)), 'r') as html:
-        return html.read()
+    with open(os.path.abspath('html/{}.html'.format(template_name)), 'r') as h:
+        return h.read()
+
 
 # Styles and scripting for the page
 main_page_head = def_template('head')
@@ -22,9 +23,12 @@ def create_movie_tiles_content(movies):
     full_content = ''
     for movie in movies:
         # Extract the youtube ID from the url
-        youtube_id_match = re.search(r'(?<=v=)[^&#]+', movie.trailer_youtube_url)
-        youtube_id_match = youtube_id_match or re.search(r'(?<=be/)[^&#]+', movie.trailer_youtube_url)
-        trailer_youtube_id = youtube_id_match.group(0) if youtube_id_match else None
+        youtube_id_match = re.search(r'(?<=v=)[^&#]+',
+                                     movie.trailer_youtube_url)
+        youtube_id_match = youtube_id_match or re.search(
+            r'(?<=be/)[^&#]+', movie.trailer_youtube_url)
+        trailer_youtube_id = youtube_id_match.group(0) if youtube_id_match \
+            else None
 
         # Append the tile for the movie with its content filled in
         full_content += movie_tile_content.format(
@@ -41,7 +45,8 @@ def open_movies_page(movies):
     # Create or overwrite the output file
     output_file = open('html/index.html', 'w')
 
-    # Replace the placeholder for the movie tiles with the actual dynamically generated content
+    # Replace the placeholder for the movie tiles with the actual dynamically
+    # generated content
     rendered_content = main_page_content.format(
         movie_tiles=create_movie_tiles_content(movies),
         main_page_head=main_page_head)

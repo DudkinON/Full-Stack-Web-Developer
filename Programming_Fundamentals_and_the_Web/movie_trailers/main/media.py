@@ -2,13 +2,14 @@ import csv
 import os
 import webbrowser
 
+
 def get_movies(movies_file):
     """
     This function get path of csv file return list of dictionaries
     :param movies_file: path of csv file
     :return list: return list of dictionaries
     """
-    with open(os.path.abspath(movies_file), 'rb') as objects:
+    with open(os.path.abspath(movies_file), 'r') as objects:
         movies = list()
         movies_list = csv.DictReader(objects)
         for movie in movies_list:
